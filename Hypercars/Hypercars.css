@@ -1,0 +1,88 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kopf{ 
+
+    text-align: center;
+ 
+}
+
+#container1{
+
+
+
+
+
+}
+p {
+    
+}
+.jesko{
+margin-left: 488px;
+background-color: white;
+float: left;
+border: black;
+border-width: 2px;
+border-style: solid;
+}
+
+
+.gemera{
+background-color: darkgray;
+margin-right: 505px;
+float: right;
+border: black;
+border-width: 2px;
+border-style: solid;
+}
+
+
+
+#container2{
+
+}
+
+
+
+.fenyr{
+margin-left: 320px;
+background: linear-gradient(to bottom, blue, grey);  
+float: left;
+border: black;
+border-width: 2px;
+border-style: solid;
+}
+
+
+.divo{
+margin-right: 538px;
+background-color: darkslategrey; 
+color: white;   
+float: right;
+border: black;
+border-width: 2px;
+border-style: solid;
+}
+
+@media print{
+
+    .jesko, .gemera, .fenyr, .divo{
+        width: 35%;
+
+    }
+     img {
+         width: 100%;
+     }   
+
+    }
+}
+
+@media screen{
+.jesko, .gemera, .fenyr, .divo{
+
+
+}
+
+}
